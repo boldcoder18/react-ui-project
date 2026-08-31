@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
 
-
-
-
-
 const App = () => {
 
   const [title, setTitle] = useState("")
@@ -82,7 +78,7 @@ const App = () => {
 
 
 
-      <div className='lg:w-1/2 lg:border-l-2  p-10'>
+      <div className='lg:w-1/2 lg:border-l-2  p-10'>         
 
         <h1 className='text-3xl font-bold ml-8'>Recent Notes</h1>
         <div className='flex flex-wrap  items-start justify-start gap-5 mt-6 h-[90%] overflow-auto'>
