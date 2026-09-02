@@ -56,14 +56,14 @@ const App = () => {
       <div className="flex justify-center items-center gap-4 py-4 bg-[url('https://i.pinimg.com/736x/6a/a6/2e/6aa62efffbc1a50947a21bdeeec3dbf0.jpg')] object-center" >
         <button
           onClick={() => index(num - 1)}
-          className='bg-red-800 text-white text-2xl text-semibold px-6 py-2 rounded-b-2xl active:scale-90 border-4 border-red-400'>
-          Prev~
+          className='bg-red-800 text-white text-xl font-serif px-4 py-2 rounded-2xl active:scale-90 border-4 border-red-400'>
+          Prev
         </button>
-        <h2 className='text-2xl font-serif text-gray-200 uppercase'>~Page{num}~</h2>
+        <h2 className='text-xl font-serif text-gray-200 uppercase'>~Page{num}~</h2>
         <button
           onClick={() => index(num + 1)}
-          className='bg-blue-800 text-white text-2xl text-semibold px-6 py-2 rounded-t-2xl active:scale-90 border-4 border-blue-400'>
-          ~Next
+          className='bg-blue-800 text-white text-xl font-serif px-4 py-2 rounded-2xl active:scale-90 border-4 border-blue-400'>
+          Next
         </button>
 
       </div>
