@@ -41,8 +41,12 @@ const App = () => {
     })
   }
   return (
-    <div className="h-screen bg-[url('https://i.pinimg.com/1200x/0a/d9/24/0ad924de82d42969b087654bc7b17711.jpg')] overflow-auto [scroll-width::none] [&::-webkit-scrollbar]:hidden items-center text-white rounded-lg">
+    <div className="h-screen bg-[url('https://i.pinimg.com/1200x/0a/d9/24/0ad924de82d42969b087654bc7b17711.jpg')] overflow-auto [scroll-width::none] [&::-webkit-scrollbar]:hidden items-center text-white">
+
+
       <h1 className="text-5xl font-serif text-center flex justify-center py-4 bg-[url('https://i.pinimg.com/1200x/0a/d9/24/0ad924de82d42969b087654bc7b17711.jpg')] text-white uppercase">NASA GALAXY Gallery</h1>
+
+
       <div className="flex flex-wrap gap-4 justify-center pt-4 bg-[url('https://i.pinimg.com/1200x/45/7b/3a/457b3aeb18251ad74cab765899b1e91c.jpg')] object-fill">
 
         {printUserData}
